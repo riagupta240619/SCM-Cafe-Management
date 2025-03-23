@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="logo.png" style="mix-blend-mode: multiply;">
+    <meta charset="UTF-8">
+    <title>Cafe</title>
+    <link rel="stylesheet" href="1.css">
+    <!-- Font linking starts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <!-- Font link ends -->
+</head>
+<body>
+    <header>
+    <!-- Navigation Bar Starts -->
+    <img class="logo" src="logo.png" style="flex-wrap: wrap; mix-blend-mode: multiply;" alt="logo">
+    <nav>
+        <ul class="nav_links" style="font-size: large;">
+            <li><a href="1.html">Home</a></li>
+            <li><a href="5.html">About</a></li>
+            <li><a href="8.html">Order</a></li>
+            <li><a href="7.html">Gift</a></li>
+            <li><a href="6.html">Offers</a></li>
+        </ul>
+    </nav>
+    <form class="example" action="action_page.php">
+        <input type="text" placeholder="Search.." name="search">
+    </form>
+    <div class="full-cup empty"></div>
+  
+    <div class="half-cup empty "></div>
+  
+    <div class="empty-cup"></div>
+    
+    
+    <div class="nav_extras">
+        <button><a href="16.html" target="_blank"> Sign in </a></button>
+        <button><a href="3.html" target="_blank">Sign up</a></button>
+    </div>
+    <!-- Navigation Bar Ends -->
+    </header>
+    <hr>
+    <div>
+        <p style="font-size: 25px; font-family: 'Lobster';text-align: center;color: #402E02; background-color:#D6BEA2 ;">"A place to grab more than a Coffee."</p>
+    </div>
+    <hr>
+    <!-- Slideshow Banner Starts -->
+    <div class="banner">
+        <div class="slideshow">
+            <img src="image1.jpg" alt="Image 1">
+            <img src="image2.png" alt="Image 2">
+            <img src="image3.png" alt="Image 3">
+            <img src="image4.jpg" alt="Image 4">
+            <img src="image5.png" alt="Image 5">
+        </div>
+    </div>
+    <!--Menu Section Starts -->
+    <br>
+    <br>
+    <section class="menu" id="menu">
+        <div class="heading">
+            <span><h1>Food Menu</h1></span>
+            <h4 class="subheading">Fresh Taste and Great Price</h4>
+        </div>
+        <br>
+        <div class="border1"></div>
+        <div class="menu-container">
+            <div class="box">
+                <div class="box-img">
+                <p><a href="10.html">
+                <img src="bestseller.jpg" alt="Bestseller">
+                </a></p>
+                </div>
+                <p><a href="10.html" style="font-family: 'Times New Roman', Times, serif; font-size: 25px; color: black;" target="_blank"><b>Bestseller</b></a></p>
+            </div>
+            <div class="box">
+                <div class="box-img">
+                    <p><a href="11.html">
+                    <img src="drnks.jpg" alt="Drinks">
+                    </a></p>
+                    </div>
+                    <p><a href="11.html" style="font-family: 'Times New Roman', Times, serif; font-size: 25px; color: black;" target="_blank"><b>Drinks</b></a></p>
+            </div>
+            <div class="box">
+                <div class="box-img">
+                    <p><a href="12.html">
+                    <img src="breakfast.jpg" alt="Breakfast">
+                    </a></p>
+                    </div>
+                    <p><a href="12.html" style="font-family: 'Times New Roman', Times, serif; font-size: 25px; color: black;" target="_blank"><b>Breakfast</b></a></p>
+            </div>
+            <div class="box">
+                <div class="box-img">
+                    <p><a href="13.html">
+                    <img src="merchandice.jpg" alt="Merchandise">
+                    </a></p>
+                    </div>
+                    <p><a href="13.html" style="font-family: 'Times New Roman', Times, serif; font-size: 25px; color: black;" target="_blank"><b>Merchandise</b></a></p>
+            </div>
+            <div class="box">
+                <div class="box-img">
+                    <p><a href="8.html">
+                    <img src="order.png" alt="Order Online">
+                    </a></p>
+                    </div>
+                    <p><a href="8.html" style="font-family: 'Times New Roman', Times, serif; font-size: 25px; color: black;" target="_blank"><b>Order Online</b></a></p>
+            </div>
+            <div class="box">
+                <div class="box-img">
+                    <p><a href="14.html">
+                    <img src="dine.jpg" alt="Dine In">
+                    </a></p>
+                    </div>
+                    <p><a href="14.html" style="font-family: 'Times New Roman', Times, serif; font-size: 25px; color: black;" target="_blank"><b>Dine In</b></a></p>
+            </div>
+        </div>
+    </section>
+    <br>
+    <br>
+
+    <!-- New Section for JavaScript Demonstrations -->
+    <div style="text-align: center; margin-top: 20px;">
+        <button onclick="changeBackgroundColor()">Change Background Color</button> 
+         <!-- Changes background color > -->
+        <p id="toggleTextElement" onclick="toggleText()" style="cursor: pointer;">Click to see our offers!</p> <!-- Toggles text -->
+        <br>
+        <button onclick="incrementCounter()">Click Me to Redeem Points</button> <!-- Increments the counter -->
+        <p id="counterDisplay">Count: 0</p> Displays the counter value
+    </div>
+    <br>
+    <!-- Testimonials -->
+    <div class="Testimonials">
+        <div class="inner">
+            <h1>Testimonials</h1>
+            <div class="border"></div>
+
+            <div class="row">
+                <div class="col">
+                    <div class="Testimonial">
+                        <img src="person1.jpg">
+                        <div class="name">Sunaina</div>
+                        <div class="stars">
+                            <img src="star.png" style="mix-blend-mode: multiply;">
+                            <img src="star.png" style="mix-blend-mode: multiply;">
+                            <img src="star.png" style="mix-blend-mode: multiply;">
+                            <img src="star.png" style="mix-blend-mode: multiply;">
+                            <img src="star.png" style="mix-blend-mode: multiply;">
+                            <p>"Brew Heaven Cafe is my favorite spot to relax! The coffee is always fresh, and the warm ambiance makes it the perfect place to unwind."</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="Testimonial">
+                        <img src="person2.jpg">
+                        <div class="name">JAKE</div>
+                        <div class="stars">
+                            <img src="star.png" style="mix-blend-mode: multiply;">
+                            <img src="star.png" style="mix-blend-mode: multiply;">
+                            <img src="star.png" style="mix-blend-mode: multiply;">
+                            <img src="star.png" style="mix-blend-mode: multiply;">
+                            <img src="star.png" style="mix-blend-mode: multiply;">
+                            <p>"The lattes at Brew Heaven are unbeatable! Whether it’s for a quick coffee break or a casual hangout, it’s my go-to spot every time."</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="Testimonial">
+                        <img src="person3.jpeg">
+                        <div class="name">DAVID</div>
+                        <div class="stars">
+                            <img src="star.png" style="mix-blend-mode: multiply;">
+                            <img src="star.png" style="mix-blend-mode: multiply;">
+                            <img src="star.png" style="mix-blend-mode: multiply;">
+                            <img src="star.png" style="mix-blend-mode: multiply;">
+                            <img src="star.png" style="mix-blend-mode: multiply;">
+                            <p>"Amazing service and delicious coffee! The staff is so friendly, and the vibe is always welcoming. I can't recommend Brew Heaven enough!"</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Contact Us Button -->
+     <div class="contact-button">
+        <a href="15.html">
+            <img src="support.png" style="border-radius: 100%;">
+        </a>
+     </div>
+    <!-- Footer Starts -->
+    <footer style="display: flex;">
+        <div class="row">
+            <div class="col1">
+                <img src="logo.png" style=" width: 190px; height: 180px;
+                padding-left: 30px; padding-top: 30px; display: flex; margin-right: 0%;mix-blend-mode: multiply;">
+            </div>
+            <br>
+            <div class="col2">
+                <ul style="padding-left: 30px;">
+                    ABOUT US
+                    <br>
+                    <br>
+                    <li><a href="5.html" target="_blank">Our Company</a></li>
+                    <li><a href="9.html" target="_blank">Our Team</a></li>
+                    <li><a href="1.html" target="_blank">Home</a></li>
+                </ul>
+            </div>
+            <div class="col3">
+                <ul style="padding-left: 30px;">
+                    RESPONSIBILITY
+                    <br>
+                    <br>
+                    <li><a href="4.html" target="_blank">Diversity</a></li>
+                    <li>Community</li>
+                    <li>Ethical Sourcing</li>
+                    <li>Environmental Ownership</li>
+                    <li>Learn more</li>
+                </ul>
+            </div>
+            <div class="col4">
+                <ul style="padding-left: 30px;">
+                    QUICK LINKS
+                    <br>
+                    <br>
+                    <li>Privacy Policy</li>
+                    <li>Faqs</li>
+                    <li>Customer Service</li>
+                    <li>Delivery</li>
+                    <li>Ownership</li>
+                    <li>Subscription</li>
+                </ul>
+            </div>
+            <div class="col5">
+                <ul style="padding-left: 30px;">
+                    SOCIAL MEDIA
+                    <br>
+                    <br>
+                    <a href="https://www.facebook.com/">
+                        <img src="facebook.png" style="width: 53px; height: 50px; mix-blend-mode: multiply;">
+                    </a>
+                    <a href="https://www.instagram.com/">
+                        <img src="insta.jpg" style="width: 53px; height: 50px; mix-blend-mode: multiply;">
+                    </a>
+                    <a href="https://twitter.com/?lang=en">
+                        <img src="twitter.png" style="width: 53px; height: 50px; mix-blend-mode: multiply;">
+                    </a>
+                </ul>
+            </div>
+            <div class="col6">
+                <a href="https://play.google.com/store/games?hl=en&pli=1" target="_blank">
+                    <img src="app.png" width="230px" height="170px" style="mix-blend-mode: multiply;">
+                </a>
+            </div>
+        </div>
+    </footer>
+    <script>
+        // 1. Alert on page load
+        window.onload = function() {
+            alert("Welcome to Brew Heaven Cafe!");  // This will show an alert when the page loads
+        }
+
+        // 2. Change background color on button click
+        function changeBackgroundColor() {
+            document.body.style.backgroundColor = "lightyellow"; // Changes background to light yellow
+        }
+
+        // 3. Toggle text content using a button
+        function toggleText() {
+            var text = document.getElementById("toggleTextElement");
+            if (text.innerHTML === "Click to see our offers!") {
+                text.innerHTML = "Enjoy amazing offers!";
+            } else {
+                text.innerHTML = "Click to see our offers!";
+            }
+        }
+
+        // 4. Basic counter functionality
+        let counter = 0;
+        function incrementCounter() {
+            counter++;
+            document.getElementById("counterDisplay").innerHTML = "Count: " + counter;
+        }
+        //5. Cup Java
+        const fullcup = document.querySelector(".full-cup");
+        const halfcup = document.querySelector(".half-cup");
+        const empcup = document.querySelector(".empty-cup");
+
+        halfcup.addEventListener("click", () => {
+            halfcup.classList.add("empty");
+            fullcup.classList.remove("empty");
+            console.log("empty");
+        });
+
+        empcup.addEventListener("click", () => {
+            empcup.classList.add("empty");
+            halfcup.classList.remove("empty");
+            console.log("empty");
+        });
+        fullcup.addEventListener("click", () => {
+            fullcup.classList.add("empty");
+            empcup.classList.remove("empty");
+            console.log("empty");
+        });
+    </script>
+</body>
+</html>
+
+
+
+
