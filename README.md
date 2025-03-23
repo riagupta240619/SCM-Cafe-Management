@@ -28,3 +28,4 @@ Ensure you have the following installed:
    ```sh
    git clone https://github.com/yourusername/cafe-website.git
    cd cafe-website
+2. 
